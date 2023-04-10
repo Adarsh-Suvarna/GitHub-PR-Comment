@@ -51,4 +51,4 @@ jobs:
 | repo-token-user-login | with     | Define this to save on comment processing time when checking for repeats. GitHub's default token uses `github-actions[bot]` | no       |         |
 | allow-repeats         | with     | A boolean flag to allow identical messages to be posted each time this action is run                                        | no       | false   |
 | proxy-url             | with     | A string for your proxy service URL if you'd like this to work with fork-based PRs                                          | no       |         |
-| GITHUB_TOKEN          | env      | A valid GitHub token, can alternatively be defined in the env                                                               | maybe    |         |
+| GITHUB_TOKEN          | env      | A valid GitHub token, can alternatively be defined in the env                                                               | no    |         |
